@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        width: 300px;
+        float: left;
+
+        border-radius: 5px;
+      }
+      body {
+        background-color: gray;
+      }
+      iframe {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0"
+      nonce="F1KzplKU"
+    ></script>
+    <table style="width: 100%">
+      <tr>
+        <td colspan="5" rowspan="4">
+          <iframe
+            src="video1.html"
+            name="page"
+            scrolling="auto"
+            frameborder="0"
+            width="1270px"
+            height="900px"
+          ></iframe>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="./video1.html" target="page"
+            ><img src="./img/anh2.jpg" alt="" class="a"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="./video2.html" target="page"
+            ><img src="./img/anh3.jpg" alt="" class="a"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="./video3.html" target="page"
+            ><img src="./img/anh1.jpg" alt="" class="a"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <div
+            style="
+              width: 100%;
+              background-color: gainsboro;
+              border-radius: 10px;
+            "
+          >
+            <iframe
+              src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2F127.0.0.1%3A5500%2Findex%2520copy.html&width=1000px&layout&action&size&share=true&height=35&appId"
+              width="1000px"
+              height="35"
+              style="border: none; overflow: hidden"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <div
+            style="
+              width: 100%;
+              background-color: gainsboro;
+              border-radius: 10px;
+            "
+            class="fb-comments"
+            data-href="http://127.0.0.1:5500/index%20copy.html"
+            data-width="100%"
+            data-numposts="5"
+          ></div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

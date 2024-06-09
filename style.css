@@ -1,0 +1,198 @@
+body {
+  background-color: antiquewhite;
+}
+.hearderhinh {
+  width: 100%;
+  margin-top: -7px;
+}
+/* nav {
+  display: grid;
+  grid-template-areas: "trangchu gioithieu hoidap gopy lienhe";
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium";
+  font-size: larger;
+}
+.link:hover {
+  color: white;
+}
+.cn {
+  background-color: beige;
+} */
+.menu > ul > li {
+  display: inline-block;
+  position: relative;
+}
+.menu > ul > li > a {
+  display: block;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: larger;
+  color: white;
+  padding: 0 10px;
+  line-height: 40px;
+}
+.menu > ul > li > a:hover {
+  color: yellow;
+}
+.menu > ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  background-color: burlywood;
+  text-align: center;
+}
+.menu ul ul {
+  position: absolute;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 1px gray;
+}
+.menu ul ul a {
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  color: black;
+  font-variant: small-caps;
+  font-size: larger;
+  padding: 0 10px;
+}
+.menu > ul > li:hover > ul {
+  display: block;
+}
+.menu ul ul a:hover {
+  background-color: burlywood;
+  color: white;
+}
+.footer {
+  width: 100%;
+  /* background-color: burlywood; */
+  border-radius: 5%;
+  display: grid;
+  /* grid-template-areas: "logo logo so trong"; */
+}
+.links {
+  color: #434343;
+  font-size: large;
+  font-family: "Gill Sans";
+  padding: 0 12px;
+  text-decoration: none;
+}
+.footer {
+  position: relative;
+  height: 80px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links:hover {
+  color: red;
+}
+
+article {
+  width: 75%;
+  float: left;
+}
+/* a {
+  color: #434343;
+  font-size: large;
+  font-family: "Gill Sans";
+  padding: 0 12px;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+} */
+aside {
+  width: 25%;
+  float: right;
+  background-color: antiquewhite;
+}
+iframe[name="page"] {
+  width: 100%;
+  height: 900px;
+}
+.linka {
+  padding-top: 50px;
+}
+aside ul {
+  padding: 0px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px gray;
+}
+aside a {
+  display: block;
+  border-bottom: 1px dotted orangered;
+  color: black;
+  font-variant: small-caps;
+  font-size: larger;
+  text-decoration: none;
+  padding: 8px 5px 8px 30px;
+}
+aside a:hover {
+  border-bottom: 1px dotted white;
+  background-color: burlywood;
+  color: white;
+  font-weight: bold;
+}
+/* -----nav herder---- */
+.top-right {
+  position: absolute;
+  top: -7px;
+  right: 0px;
+  border-bottom-left-radius: 30px;
+  background-color: burlywood;
+  height: 50px;
+  font-family: "Franklin Gothic Medium";
+}
+.top-right a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  margin: 5px;
+}
+.top-right a:hover {
+  color: yellow;
+}
+.container {
+  position: relative;
+}
+/* -----nav----- */
+nav {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  font-variant: small-caps;
+
+  position: fixed;
+  top: 0px;
+}
+nav a {
+  color: white;
+  line-height: 50px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  color: rebeccapurple;
+  text-decoration: underline;
+}
+nav .nn {
+  float: right;
+}

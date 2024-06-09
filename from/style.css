@@ -1,0 +1,15 @@
+.noidung {
+  border: 1px solid;
+  box-shadow: 0 0 1px saddlebrown;
+  width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: burlywood;
+  font-size: larger;
+}
+h2 {
+  text-align: center;
+}
+.a {
+  padding-top: 10px;
+}
